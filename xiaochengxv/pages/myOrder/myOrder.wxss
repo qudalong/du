@@ -1,0 +1,58 @@
+page{
+  background: #f0f0f0;
+}
+.title{
+  font-size: 32rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #dedede;
+  background: #fff;
+  padding: 10rpx;
+}
+.orderList{
+  padding: 10rpx;
+}
+.orderList .item{
+  display: flex;
+  align-items: center;
+  border-radius: 10rpx;
+  background: #fff;
+  margin-bottom: 10rpx;
+}
+.productInfo{
+  margin-left: 20rpx;
+  position: relative;
+  flex: 1;
+}
+.item{
+  font-size: 26rpx;
+  padding: 10rpx 0;
+}
+.item .cover{
+  height: 250rpx;
+  width: 200rpx;
+  border-radius: 10rpx;
+}
+.item .info{
+ margin-top: 40rpx;
+ line-height: 1.6;
+}
+.btn-grounp{
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-grounp .btn{
+  padding:14rpx 20rpx;
+  border-radius: 10rpx;
+  background: #00B26A;
+  color: #fff;
+  font-size: 26rpx;
+}
+.price{
+  position: absolute;
+  top: 50rpx;
+  right: 40rpx;
+  color: red;
+  font-size: 40rpx;
+}

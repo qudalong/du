@@ -1,0 +1,18 @@
+<view class='title'>我的订单</view>
+<view class="orderList">
+<view class="item" wx:for="list">
+	<image class="cover" src="/image/demo.jpg"></image>
+	<view class="productInfo">
+		<view class="time">2020-07-14 22:06:56</view>
+		<view class="info">
+			<view class="name">杜蕾斯</view>
+			<view class="number">货柜信息：A1011201-3</view>
+		<view class="btn-grounp">
+			<view class="btn">重新开门</view>
+			<view class="btn">申请退款</view>
+		</view>
+		</view>
+    <view class="price">-￥0.02</view>
+	</view>
+</view>
+</view>
