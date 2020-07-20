@@ -1,8 +1,12 @@
 {
   "pages":[
+    "pages/home/home",    
+    "pages/scanContent/scanContent",    
+    "pages/list/list",  
+    "pages/question/question",  
     "pages/myOrder/myOrder",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs" 
   ],
   "window":{
     "backgroundTextStyle":"light",

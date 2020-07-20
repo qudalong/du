@@ -1,0 +1,22 @@
+<view class='wrapper'>
+	<view class="title">
+		<view class="lable">注：</view>
+		<view>购买期间请勿拔掉电源，付款后特殊情况柜门未打开，请再次扫码，点击对应的商品手动开柜按钮即可打开。</view>
+	</view>
+	<view>
+		<view class="list">
+			<view wx:for="{{list}}" class="item">
+				<image src="/image/demo.jpg"></image>
+				<view class="titlea">
+					<view class="name">这个是产品名称</view>
+					<text class="intro">这个是产品描述</text>
+				</view>
+				<view class="row">
+					<view class="price">36.5<text class="a">￥</text></view>
+					<view class="btn">立即购买</view>
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class="btns">点这里，快速充电</view>
+</view>

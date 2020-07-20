@@ -1,0 +1,16 @@
+<view class="questionList">
+	<view class='item' bindtap="tap" data-index='1'>
+		<view class="title">关于蓝牙操作指南</view>
+		<image src="/image/icon_right.png"></image>
+	</view>
+	<view class="content" wx:if="{{row==1}}">
+		扫码前请打开手机蓝牙，确保手机与设备正常通讯，如果蓝牙已经打开，扫码时依然提示连接失败，请先关闭蓝牙，然后重新开启蓝牙后在重新扫码
+	</view>
+	<view class='item'  bindtap="tap" data-index='2'>
+		<view class="title">页面打开失败怎么办？</view>
+		<image src="/image/icon_right.png"></image>
+	</view>
+	<view class="content" wx:if="{{row==2}}">
+		如果遇到页面打开失败，或者一直在加载中，请先检查您是否在手机中设置了代理(VPN),如果是，您可以暂时取消代理，然后重试
+	</view>
+</view>

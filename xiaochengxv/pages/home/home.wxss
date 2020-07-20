@@ -1,0 +1,25 @@
+.cover{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.btn{
+	width: 70%;
+	height: 100rpx;
+	line-height:100rpx ;
+	color: #fff;
+	background: #E10080;
+	border-radius: 10rpx;
+	position: absolute;
+	bottom: 100rpx;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+.user{
+	position: absolute;
+	right: 50rpx;
+	top: 60%;
+	width: 70rpx;
+	height: 100rpx;
+}

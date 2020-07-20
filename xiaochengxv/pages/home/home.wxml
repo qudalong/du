@@ -1,0 +1,3 @@
+<image class="cover" src="/image/demo.jpg"></image>
+<image bindtap="toMy" class="user" src="/image/user.png"></image>
+<view class="btn hover" bindtap='scan'>扫码开柜</view>

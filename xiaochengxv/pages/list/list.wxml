@@ -1,0 +1,14 @@
+<view class='head-wrap'>
+	<open-data class='head' type="userAvatarUrl"></open-data>
+	<open-data class='title' type="userNickName" lang="zh_CN"></open-data>
+</view>
+<view class="list">
+	<view class="item hover" bindtap='toOrder'>
+		<image class="cover" src="/image/order.png"></image>
+		<view>我的订单</view>
+	</view>
+	<view class="item hover"  bindtap='toQuestion'>
+		<image class="cover" src="/image/question.png"></image>
+		<view>常见问题</view>
+	</view>
+</view>
